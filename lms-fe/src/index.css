@@ -1,0 +1,32 @@
+.nav-wrapper{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  background-color: #192a56;
+}
+
+.nav-left{
+  width: 40%;
+  color: white;
+}
+
+.nav-right{
+  width: 60%;
+  display: flex;
+  flex-flow: row-reverse;
+  margin-right: 30px;
+  gap: 10px;
+}
+
+.nav-item{
+  margin-top: 7px;
+  cursor: pointer;
+  color: white;
+}
+
+.status-wrapper{
+  margin:10px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
